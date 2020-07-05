@@ -97,35 +97,35 @@ body {
 
 @font-face {
   font-family: "Raleway-Regular";
-  src: url(../fonts/Raleway-Regular.ttf);
+  src: url(./fonts/Raleway-Regular.ttf);
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Raleway-Bold";
-  src: url(../fonts/Raleway-Bold.ttf);
+  src: url(./fonts/Raleway-Bold.ttf);
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Raleway-SemiBold";
-  src: url(../fonts/Raleway-SemiBold.ttf);
+  src: url(./fonts/Raleway-SemiBold.ttf);
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "SomeTimeLater";
-  src: url(../fonts/SomeTimeLater.otf);
+  src: url(./fonts/SomeTimeLater.otf);
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Cookie-Regular";
-  src: url(../fonts/Cookie-Regular.ttf);
+  src: url(./fonts/Cookie-Regular.ttf);
   font-style: normal;
   font-weight: normal;
 }
@@ -575,7 +575,7 @@ form#forma {
 }
 
 #popup_click {
-  background-image: url(../image/Fitness-training-sunset.jpg);
+  background-image: url(./image/Fitness-training-sunset.jpg);
   background-size: cover;
   max-width: 68%;
   max-height: 58%;
@@ -779,7 +779,7 @@ iframe {
   }
 
   .cont-6-right {
-    background-image: url(../image/replace\image1.png);
+    background-image: url(./image/replace\image1.png);
     text-align: center;
     padding-top: 40px;
     padding-bottom: 90px;
@@ -851,7 +851,7 @@ iframe {
 
 @media (min-width: 769px) and (max-width: 992px) {
   .cont-6-right {
-    background-image: url(../image/replace\image1.png);
+    background-image: url(./image/replace\image1.png);
     text-align: center;
     padding-top: 40px;
     padding-bottom: 90px;
@@ -1226,7 +1226,7 @@ iframe {
     padding-top: 163px;
     padding-bottom: 150px;
     text-align: center;
-    background-image: url(../image/replace\iamge.png);
+    background-image: url(./image/replace\iamge.png);
     background-repeat: no-repeat;
   }
 
