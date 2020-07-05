@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Подключаем стили slick-slider c CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <!-- =================================== -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+
+    <a name="top"></a>
+
+    <header class="container ">
+
+        <div class="dark">
+            <div class="row-1 col-12">
+                <div class="col-6 Logotip">
+                    <div><a href=""> FITNE<span>SS</span> </a> </div>
+                    <div><a href="">HOME</a> </div>
+                    <div class="about_us"><a href="#about us">ABOUT US</a> </div>
+                    <div><a href="#blog">BLOG</a> </div>
+                    <div><a href="#contacts">CONTACTS</a> </div>
+
+                </div>
+                <div class="col-6 login">
+                    <div> <a href="">LOGIN</a> </div>
+                    <div> <a href="">SING UP</a> </div>
+                    <div> <a href="">CHOSE PLANE</a> </div>
+                </div>
+            </div>
+
+            <div class="row-2 ">
+                <div class="col-6 box">
+                    <h1>MAKE YOUR BODY <span>BEAUTIFUL</span> </h1>
+                    <p>AND YOU WILL MORE SMILE</p>
+                    <button> <a href="javascript:void(0)"
+                            onclick="document.getElementById('parent_popup_click').style.display='block';">GET IN
+                            TOUCH</a>
+                        <div id="parent_popup_click">
+
+
+
+                            <div id="popup_click">
+
+                                <form method="post" action="javascript:void(0);" onsubmit="send_form();" id="forma">
+                                    <input type="text" name="name" required placeholder="Name" id='name'
+                                        onkeyup='checkParams()' />
+                                    <!--<input type="tel" name="tel" pattern="2[0-9]{3}-[0-9]{3}">-->
+                                    <input type="text" name="phone" required placeholder="Phone" id='phone'
+                                        onkeyup='checkParams()' />
+                                    <input type="text" name="email" required placeholder="E-Mail" id='email'
+                                        onkeyup='checkParams()' />
+                                    <input type="reset" value="Reset" style="color:#f00" />
+
+                                    <br />
+                                    <input type="submit" style="color:rgb(77, 140, 235)" value="Send" id='submit'
+                                        disabled onclick="dataField(this.form)" />
+                                </form>
+
+                                <a class="close" title="Закрыть"
+                                    onclick="document.getElementById('parent_popup_click').style.display='none';">X</a>
+                            </div>
+                        </div>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="slider-wrapper">
+        <div class="slider">
+            <div class="slider__item">
+                <img class="slider__img" src="../image/Fitness_sexy_pose_blonde_439532.jpg" alt="item 1">
+            </div>
+            <div class="slider__item">
+                <img class="slider__img" src="../image/400358-serjio-serjik.jpg" alt="item 1">
+            </div>
+            <div class="slider__item">
+                <img class="slider__img" src="../image/431841-Kycb.jpg" alt="item 1">
+            </div>
+            <div class="slider__item">
+                <img class="slider__img" src="../image/header replace image.png" alt="item 1">
+            </div>
+            <div class="slider__item">
+                <img class="slider__img" src="../image/Fitness_sportswear_437893.jpg" alt="item 1">
+            </div>
+            <div class="slider__item">
+                <img class="slider__img" src="../image/Fitness_sportswear_pose_438621.jpg" alt="item 1">
+            </div>
+            <div class="slider__item">
+                <img class="slider__img" src="../image/Fitness_training_sunset_438667 (1).jpg" alt="item 1">
+            </div>
+        </div>
+    </div>
+    <section class="container-2">
+        <div class="row-3">
+            <div class="col-6 cont-2 ">
+                <h2>WELCOM TO <span>FITNESS</span> </h2>
+                <p> <b> lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris </b>
+
+                </p>
+                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris</p>
+            </div>
+            <div class="col-6 cont-2">
+                <img src="../image/CENTRAL ELEMENT2.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <section class="container-3">
+
+        <div class="col-12 name_block">
+            <h2> <span>FITNESS </span> DESTINATIONS</h2>
+
+        </div>
+        <div class="row-4 slider_2">
+            <div class="col-4 block_cont slider_2__item">
+                <img src="../image/image-category11.png" alt="">
+                <div class="block_text_cont3">
+                    <h5>Basic Crossfit</h5>
+
+                    <p> <b> Our staff includes amazing professionals
+                            that have an eye for crossfit.
+                        </b> </p>
+                    <button tabindex="-1">
+                        <a href="javascript:void(0)"
+                            onclick="document.getElementById('parent_popup_click').style.display='block';"> GET IN
+                            TOUCH</a>
+
+                    </button>
+                </div>
+            </div>
+            <div class="col-4 block_cont slider_2__item">
+                <img src="../image/image-category.png" alt="">
+                <div class="  block_text_cont3">
+                    <h5>Fitness Studio</h5>
+
+                    <p> <b> Work out in fitness groups or with
+                            a personal certified trainer in our gym
+                        </b> </p>
+                    <button tabindex="-1">
+                        <a href="javascript:void(0)"
+                            onclick="document.getElementById('parent_popup_click').style.display='block';">GET IN
+                            TOUCH</a>
+
+                    </button>
+                </div>
+            </div>
+            <div class="col-4 block_cont slider_2__item">
+                <img src="../image/image-category2.png" alt="">
+                <div class="block_text_cont3">
+                    <h5>Yoga Classes</h5>
+
+                    <p> <b>
+                            What do you think about yoga? If you have a passion
+                            for this activity, we’ve got a special program.
+                        </b> </p>
+                    <button tabindex="-1">
+                        <a href="javascript:void(0)"
+                            onclick="document.getElementById('parent_popup_click').style.display='block';">GET IN
+                            TOUCH</a>
+
+                    </button>
+                </div>
+            </div>
+            <div class="col-4 block_cont slider_2__item">
+                <img src="../image/1.jpg" alt="">
+                <div class="block_text_cont3">
+                    <h5>Basic Crossfit</h5>
+
+                    <p> <b> Our staff includes amazing professionals
+                            that have an eye for crossfit.
+                        </b> </p>
+                    <button tabindex="-1">
+                        <a href="javascript:void(0)"
+                            onclick="document.getElementById('parent_popup_click').style.display='block';">GET IN
+                            TOUCH</a>
+
+
+                    </button>
+                </div>
+            </div>
+            <div class="col-4 block_cont slider_2__item">
+                <img src="../image/3.jpg" alt="">
+                <div class="  block_text_cont3">
+                    <h5>Fitness Studio</h5>
+
+                    <p> <b> Work out in fitness groups or with
+                            a personal certified trainer in our gym
+                        </b> </p>
+                    <button tabindex="-1">
+                        <a href="javascript:void(0)"
+                            onclick="document.getElementById('parent_popup_click').style.display='block';">GET IN
+                            TOUCH</a>
+
+                    </button>
+                </div>
+            </div>
+            <div class="col-4 block_cont slider_2__item">
+                <img src="../image/2.jpg" alt="">
+                <div class="block_text_cont3">
+                    <h5>Yoga Classes</h5>
+
+                    <p> <b>
+                            What do you think about yoga? If you have a passion
+                            for this activity, we’ve got a special program.
+                        </b> </p>
+                    <button tabindex="-1">
+                        <a href="javascript:void(0)"
+                            onclick="document.getElementById('parent_popup_click').style.display='block';">GET IN
+                            TOUCH</a>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="parent_John_Doe">
+
+        <div id="John_Doe">
+            <div class="pic"><img src="../image/image-trainer1.png" alt=""></div>
+            <div class="text">
+                <h5>John Doe</h5>
+                <p> <b> Our staff includes amazing professionals
+                        that have an eye for crossfit.
+                    </b> </p>
+                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris</p>
+                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris</p>
+            </div>
+
+
+
+
+
+
+            <a class="close" title="Закрыть"
+                onclick="document.getElementById('parent_John_Doe').style.display='none';">X</a>
+        </div>
+    </div>
+
+
+    <section class="container-4">
+        <h2>WE TREINED WHITH</h2>
+        <h1>PERSONAL TREINER</h1>
+        <button>
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('parent_popup_click').style.display='block';">GET IN TOUCH</a>
+
+        </button>
+    </section>
+    <section class="container-5">
+        <div class="col-12 name_block">
+            <h2> <span>FITNESS </span> DESTINATIONS</h2>
+
+        </div>
+        <div class="row-4 slider_3">
+            <div class="col-4 block_cont slider_3__iteam">
+                <img src="../image/image-trainer1.png" alt="">
+                <div class="block_text_cont3">
+                    <h5>John Doe</h5>
+                    <p><span>bootcamp trainer</span></p>
+
+                    <p> <b> Our staff includes amazing professionals
+                            that have an eye for crossfit.
+                        </b> </p>
+                    <button>
+                        <a href="javascript:void(0)"
+                            onclick="document.getElementById('parent_John_Doe').style.display='block';">READ MORE</a>
+
+                    </button>
+                </div>
+            </div>
+            <div class="col-4 block_cont slider_3__iteam">
+                <img src="../image/image-trainer-2.png" alt="">
+                <div class="  block_text_cont3">
+                    <h5>Sarra Miller</h5>
+                    <P><span>spinnig trainer</span></P>
+
+                    <p> <b> Our staff includes amazing professional_
+                            that have an eye for crossfit.
+                        </b> </p>
+                    <button> READ MORE</button>
+                </div>
+            </div>
+            <div class="col-4 block_cont slider_3__iteam">
+                <img src="../image/image-trainer.png" alt="">
+                <div class="block_text_cont3">
+                    <h5>Han Maga</h5>
+                    <P><span>spinnig trainer</span></P>
+                    <p> <b>
+                            Our staff includes amazing professionals
+                            that have an eye for crossfit.
+                        </b> </p>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+            <div class="col-4 block_cont slider_3__iteam">
+                <img src="../image/image-trainer1.png" alt="">
+                <div class="block_text_cont3">
+                    <h5>John Doe</h5>
+                    <p><span>bootcamp trainer</span></p>
+
+                    <p> <b> Our staff includes amazing professionals
+                            that have an eye for crossfit.
+                        </b> </p>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+            <div class="col-4 block_cont slider_3__iteam">
+                <img src="../image/image-trainer-2.png" alt="">
+                <div class="  block_text_cont3">
+                    <h5>Sarra Miller</h5>
+                    <P><span>spinnig trainer</span></P>
+
+                    <p> <b> Our staff includes amazing professionals
+                            that have an eye for crossfit.
+                        </b> </p>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+            <div class="col-4 block_cont slider_3__iteam">
+                <img src="../image/image-trainer.png" alt="">
+                <div class="block_text_cont3">
+                    <h5>Han Maga</h5>
+                    <P><span>spinnig trainer</span></P>
+                    <p> <b>
+                            Our staff includes amazing professionals
+                            that have an eye for crossfit.
+                        </b> </p>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+    </section>
+    <section class="container-6">
+        <div class="row-6">
+            <div class="col-6 cont-6-left">
+                <h4>TRU FOR FREE</h4>
+                <h3>FREE 5 DAYS PASS</h3>
+                <button>
+                    <a href="javascript:void(0)"
+                        onclick="document.getElementById('parent_popup_click').style.display='block';">
+                        GET IN TOUCH</a>
+
+                </button>
+            </div>
+            <div class="col-6 cont-6-right">
+                <a name="contacts"></a>
+                <h4>CALL US </h4>
+                <h3>+375(44)-745-38-73</h3>
+                <button>
+                    <a href="javascript:void(0)"
+                        onclick="document.getElementById('parent_popup_click').style.display='block';">
+                        GET IN TOUCH</a>
+
+                </button>
+            </div>
+        </div>
+
+    </section>
+    <section class="container-7">
+        <div class="col-12 cont-7">
+            <div class="col-4 cont-7-1">
+                <a name="about us"></a>
+                <h3>Fitne<span>SS</span></h3>
+                <div>
+                    <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat. </strong>
+                </div>
+                <div class="massenger">
+                    <p>
+                        <h5>Follow us :</h5>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-facebook-f"></i>
+
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-pinterest-p"></i>
+                        <i class="fa fa-apple"></i>
+                    </p>
+
+                </div>
+                <div class="adress">
+                    <h3>Пр-т Победителей 84</h3>
+                    <h3>tel. +375(44)-745-38-73</h3>
+                </div>
+                <div class="map"> <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.647050803526!2d27.48566791579745!3d53.93801408010728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc561f82236ab%3A0x2196749046c2a0d9!2z0L_RgC3Rgi4g0J_QvtCx0LXQtNC40YLQtdC70LXQuSA4NCwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1578513399255!5m2!1sru!2sby"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+            <div>
+
+            </div>
+            <div class="col-4 cont-7-2">
+                <h3>BLOGS</h3>
+                <div class="row_cont">
+                    <div>
+
+                        <img class="small" src="../image/Rectangle 19.png" alt="">
+                    </div>
+                    <div class="text">
+                        <strong>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing</strong>
+                    </div>
+                </div>
+                <div class="row_cont">
+                    <div>
+                        <img class="small" src="../image/Rectangle 20.png" alt="">
+                    </div>
+                    <div class="text">
+                        <strong>Consectetur adipiscing elit,
+                            sed do eiusmod tempor</strong>
+                    </div>
+                </div>
+                <div class="row_cont">
+                    <div>
+                        <img class="small" src="../image/Rectangle 21.png" alt="">
+                    </div>
+                    <div class="text">
+                        <strong>Tosed do eiusmod tempor
+                            incididunt ut labore</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 cont-7-3">
+                <a name="blog"> </a>
+                <h3>INSTAGRAM</h3>
+                <div class="foto">
+                    <img class="small" src="../image/Rectangle 20 copy 1.png" alt="">
+                    <img class="small" src="../image/Rectangle 20 copy 2.png" alt="">
+                    <img class="small" src="../image/Rectangle 20 copy 3.png" alt="">
+                    <img class="small" src="../image/Rectangle 20 copy 4.png" alt="">
+                    <img class="small" src="../image/Rectangle 20 copy 5.png" alt="">
+                    <img class="small" src="../image/Rectangle 20 copy 6.png" alt="">
+                    <img class="small" src="../image/Rectangle 20 copy 7.png" alt="">
+                    <img class="small" src="../image/Rectangle 20 copy 8.png" alt="">
+                    <img class="small" src="../image/Rectangle 20 copy 9.png" alt="">
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <div class="up">
+        <a href="#top">UP</a>
+    </div>
+
+
+
+
+
+    <!-- Подключаем jQuery c CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <!-- ======================= -->
+
+    <!-- Подключаем slick-slider c CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <!-- ============================= -->
+
+    <!-- Подключаем свой файл JavaScript -->
+    <script src="/js/main.js"></script>
+    <!-- =============================== -->
+    <script src="https://use.fontawesome.com/9a01972237.js"></script>
+
+</body>
+
+</html>
